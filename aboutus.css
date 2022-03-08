@@ -1,0 +1,56 @@
+body{
+    background-color : green;
+}
+
+
+div{
+    image-rendering: pixelated;
+    text-align: center; 
+    color: white;
+}
+
+
+.div .display-1 h3{
+    background-color: black;
+}
+
+
+.img{
+    border-radius: 50%;
+}
+
+.img2{
+    border-radius: 20%;
+}
+
+.event{
+    background-color: green;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#event h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.event .event-1{
+    width: 30%;
+}
+.event .event-1 img{
+    width: 400px;
+    border-radius: 30%;
+}
+.event .event-1 h3{
+    text-transform: capitalize;
+}
+.event .event-1 i{
+    color: brown;
+}
+.event .event-1 p{
+    text-transform: capitalize;
+}
+.event .event-1 p>span{
+    color: brown;
+}
